@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Memulai Permainan" />
+    
+	<style>
+		ul.list{
+			list-style-type:none;
+			width:100%;
+			margin:0;
+			padding:0;
+		}
+		
+		li.left{
+			width:45%;
+			float:left;
+		}
+		
+		li.right{
+			width:45%;
+			float:right;
+		}
+		
+		div.choice{
+			margin:0px;
+			height:30%;
+			width:100%;
+		}		
+	</style>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+<body id="permainan">
+<div id="pagekriteria" align="center" class="page">
+	<div style="widht:100%; margin-top:0px; margin-bottom:30px;">
+		<p style="margin-top:8px;font-size:25px; color:#62c61f;">Pilih kriteria soal!!</p>
+	</div>
+	<div class="choice">
+		<div style="width:45%; margin:0; float:left;">
+			<a id="tidur" href="./soal/soalTidur.html" ><img width="110px" height="110px" src="./images/tempat-tidur.png"></a>
+		</div>
+		<div style="width:45%; margin:0; float:right;">
+			<a id="bermain" href="./soal/soalBermain.html"><img width="110px" height="110px" src="./images/bermain.png"></a>
+		</div>
+	</div>
+	<div class="choice">
+		<div style="widht:45%; margin-left:20px; float:left;">
+			<a id="belajar" href="./soal/soalBelajar.html"><img width="110px" height="110px" src="./images/belajar.png"></a>
+		</div>
+		<div style="widht:45%; margin-right:20px; float:right;">
+			<a id="makan" href="./soal/soalMakan.html"><img width="110px" height="110px" src="./images/makan.png"></a>
+		</div>
+	</div>
+	<div class="choice">
+		<div style="widht:45%; margin-left:20px; float:left;">
+			<a id="sekolah" href="./soal/soalSekolah.html"><img width="110px" height="110px" src="./images/sekolah.png"></a>
+		</div>
+		<div style="widht:45%; margin-right:20px; float:right;">
+			<a id="rumah" href="./soal/soalRumah.html"><img width="110px" height="110px" src="./images/rumah.png"></a>
+		</div>
+	</div>
+</div>
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body id="soal" onload="soalRumah()">
+	<audio id="musiksoal" src="" autoplay="true" style="position:absolute;"></audio>
+	
+	<div class="page" id="page">
+		<a href="../play.html" id="salah" style="width:100%; height:100%; display:none; position:fixed;">
+			<button style="width:100%; height:100%; background-color:transparent; border-color:transparent;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifsalah" width="100%" height="100%" align="center"> Yahh salah silahkan coba lagi ^-^ </p>	
+				</div>
+			</button>
+		</a>
+		
+		<a href="../play.html">
+			<button id="selesai" style="width:100%; height:100%; display:none; background-color:transparent; border-color:transparent; position:absolute;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifselesai" width="100%" height="100%" align="center">Yeaay semua soal sudah terjawab jangan lupa untuk dilaksanakan yaa ^-^</p>	
+				</div>
+			</button>
+		</a>
+		
+		<a href="../play.html" id="waktuhabis" style="width:100%; height:100%; display:none; position:fixed;">
+			<button style="width:100%; height:100%; background-color:transparent; border-color:transparent;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifsalah" width="100%" height="100%" align="center"> Yahh waktu habis silahkan coba lagi ^-^ </p>	
+				</div>
+			</button>
+		</a>
+		
+		<div align="center" id="tatacara">
+			<p style="font-size:15px; color:#e72146">Jawablah semua pertanyaan dengan benar sesuai dengan waktu yang ditentukan !!</p>
+		</div>
+		
+		<div id="waktu" class="waktu">
+			<div id="count" class="count" align="center">
+				<p id="timer" class="timer"></p>
+			</div> 
+		</div>		
+		
+		<div id="1" style="display:none;">
+			<div class="pertanyaan">
+				<p>Waktu ibu kesusahan apa yang harus dilakukan .....</p>
+			</div>
+		
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban1">Melihatnya</button>
+				<button id="b" class="btn-jawaban jawaban1">Membiarkannya</button>
+				<button id="c" class="btn-jawaban jawaban1">Membantunya</button>
+				<button id="d" class="btn-jawaban jawaban1">Mendengarkannya</button>
+			</div>
+		</div>
+		
+		<div id="2" style="display:none;">
+			<div class="pertanyaan">
+				<p>Batas waktu menonton TV untuk anak-anak adalah ..... perhari</p>
+			</div>
+		
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban2">3-5 jam</button>
+				<button id="b" class="btn-jawaban jawaban2">7-10 jam</button>
+				<button id="c" class="btn-jawaban jawaban2">11-12 jam</button>
+				<button id="d" class="btn-jawaban jawaban2">13-15 jam</button>
+			</div>
+		</div>
+		
+		<div id="3" style="display:none;">
+			<div class="pertanyaan">
+				<p>Batas jarak untuk menonton televisi .....</p>
+			</div>
+			
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban3">0-1 meter</button>
+				<button id="b" class="btn-jawaban jawaban3">1-2 meter</button>
+				<button id="c" class="btn-jawaban jawaban3">3-5 meter</button>
+				<button id="d" class="btn-jawaban jawaban3">6-8 meter</button>
+			</div>
+		</div>
+		
+		<div id="4" style="display:none;">
+			<div class="pertanyaan">
+				<p>Sebelum masuk ke rumah sebaiknya .....</p>
+			</div>
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban4">Mengetuk dulu/ mengucapkan salam</button>
+				<button id="b" class="btn-jawaban jawaban4">Pergi lagi</button>
+				<button id="c" class="btn-jawaban jawaban4">Memanggil orang tua</button>
+				<button id="d" class="btn-jawaban jawaban4">Langsung masuk</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>

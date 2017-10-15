@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body id="soal" onload="soalTidur()">
+	<audio id="musiksoal" src="" autoplay="true" style="position:absolute;"></audio>
+	
+	<div class="page" id="page">
+		
+		<a href="../play.html" id="salah" style="width:100%; height:100%; display:none; position:fixed;">
+			<button style="width:100%; height:100%; background-color:transparent; border-color:transparent;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifsalah" width="100%" height="100%" align="center"> Yahh salah silahkan coba lagi ^-^ </p>	
+				</div>
+			</button>
+		</a>
+		
+		<a href="../play.html">
+			<button id="selesai" style="width:100%; height:100%; display:none; background-color:transparent; border-color:transparent; position:absolute;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifselesai" width="100%" height="100%" align="center">Yeaay semua soal sudah terjawab jangan lupa untuk dilaksanakan yaa ^-^</p>	
+				</div>
+			</button>
+		</a>
+		
+		<a href="../play.html" id="waktuhabis" style="width:100%; height:100%; display:none; position:fixed;">
+			<button style="width:100%; height:100%; background-color:transparent; border-color:transparent;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifsalah" width="100%" height="100%" align="center"> Yahh waktu habis silahkan coba lagi ^-^ </p>	
+				</div>
+			</button>
+		</a>
+		
+		<div align="center" id="tatacara">
+			<p style="font-size:15px; color:#e72146">Jawablah semua pertanyaan dengan benar sesuai dengan waktu yang ditentukan !!</p>
+		</div>
+		
+		<div id="waktu" class="waktu">
+			<div id="count" class="count" align="center">
+				<p id="timer" class="timer"></p>
+			</div> 
+		</div>		
+		
+		<div id="1" style="display:none;">
+			<div class="pertanyaan">
+				<p>Sebelum tidur harus .....</p>
+			</div>
+		
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban1">Mandi</button>
+				<button id="b" class="btn-jawaban jawaban1">Langsung Tidur</button>
+				<button id="c" class="btn-jawaban jawaban1">Cuci kaki dan tangan</button>
+				<button id="d" class="btn-jawaban jawaban1">Bermain</button>
+			</div>
+		</div>
+		
+		<div id="2" style="display:none;">
+			<div class="pertanyaan">
+				<p>Sebelum tidur jangan lupa untuk .....</p>
+			</div>
+		
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban2">Berdoa</button>
+				<button id="b" class="btn-jawaban jawaban2">Berlari</button>
+				<button id="c" class="btn-jawaban jawaban2">Menari</button>
+				<button id="d" class="btn-jawaban jawaban2">Bermain</button>
+			</div>
+		</div>
+		
+		<div id="3" style="display:none;">
+			<div class="pertanyaan">
+				<p>Sesudah bangun tidur harus .....</p>
+			</div>
+			
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban3">Merapikan tempat tidur</button>
+				<button id="b" class="btn-jawaban jawaban3">Tidur lagi</button>
+				<button id="c" class="btn-jawaban jawaban3">Makan</button>
+				<button id="d" class="btn-jawaban jawaban3">Membersihkan kamar mandi</button>
+			</div>
+		</div>
+		
+		<div id="4" style="display:none;">
+			<div class="pertanyaan">
+				<p>Sesudah dan sebelum tidur harus ..... agar mulut terhindar dari kuman</p>
+			</div>
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban4">Cuci tangan</button>
+				<button id="b" class="btn-jawaban jawaban4">Cuci kaki</button>
+				<button id="c" class="btn-jawaban jawaban4">Menggosok Gigi</button>
+				<button id="d" class="btn-jawaban jawaban4">Mandi</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>

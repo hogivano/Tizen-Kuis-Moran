@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/KuisMoran" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="HJYDM9wDKw.KuisMoran" package="HJYDM9wDKw" required_version="2.4"/>
+    <author email="ogivano06@gmail.com">Hendriyan Ogivano</author>
+    <content src="index.html"/>
+    <description>Kuis untuk meningkatkan moral anak</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>KuisMoran</name>
+    <tizen:profile name="mobile"/>
+    <tizen:setting screen-orientation="portrait" context-menu="disable" background-support="disable" encryption="enable" install-location="auto" hwkey-event="enable"/>
+</widget>

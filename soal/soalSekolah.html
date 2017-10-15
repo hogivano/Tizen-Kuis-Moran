@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body id="soal" onload="soalSekolah()">
+	<audio id="musiksoal" src="" autoplay="true" style="position:absolute;"></audio>
+	
+	<div class="page" id="page">
+		
+		<a href="../play.html" id="salah" style="width:100%; height:100%; display:none; position:fixed;">
+			<button style="width:100%; height:100%; background-color:transparent; border-color:transparent;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifsalah" width="100%" height="100%" align="center"> Yahh salah silahkan coba lagi ^-^ </p>	
+				</div>
+			</button>
+		</a>
+		
+		<a href="../play.html">
+			<button id="selesai" style="width:100%; height:100%; display:none; background-color:transparent; border-color:transparent; position:absolute;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifselesai" width="100%" height="100%" align="center">Yeaay semua soal sudah terjawab jangan lupa untuk dilaksanakan yaa ^-^</p>	
+				</div>
+			</button>
+		</a>
+		
+		<a href="../play.html" id="waktuhabis" style="width:100%; height:100%; display:none; position:fixed;">
+			<button style="width:100%; height:100%; background-color:transparent; border-color:transparent;">
+				<div id="tanda" align="center" style="margin:0;">
+					<p id="notifsalah" width="100%" height="100%" align="center"> Yahh waktu habis silahkan coba lagi ^-^ </p>	
+				</div>
+			</button>
+		</a>
+		
+		<div align="center" id="tatacara">
+			<p style="font-size:15px; color:#e72146">Jawablah semua pertanyaan dengan benar sesuai dengan waktu yang ditentukan !!</p>
+		</div>
+		
+		<div id="waktu" class="waktu">
+			<div id="count" class="count" align="center">
+				<p id="timer" class="timer"></p>
+			</div> 
+		</div>		
+		
+		<div id="1" style="display:none;">
+			<div class="pertanyaan">
+				<p>Sebelum berangkat sekolah harus .....</p>
+			</div>
+		
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban1">Pulang ke ruamh</button>
+				<button id="b" class="btn-jawaban jawaban1">Berpamitan dengan orang tua</button>
+				<button id="c" class="btn-jawaban jawaban1">Tidur lagi</button>
+				<button id="d" class="btn-jawaban jawaban1">Minta uang</button>
+			</div>
+		</div>
+		
+		<div id="2" style="display:none;">
+			<div class="pertanyaan">
+				<p>Waktu bertemu guru di sekolah harus .....</p>
+			</div>
+		
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban2">Memberi salam</button>
+				<button id="b" class="btn-jawaban jawaban2">Mengabaikannya</button>
+				<button id="c" class="btn-jawaban jawaban2">Menanyakan ulangan</button>
+				<button id="d" class="btn-jawaban jawaban2">Mengikutinya</button>
+			</div>
+		</div>
+		
+		<div id="3" style="display:none;">
+			<div class="pertanyaan">
+				<p>Waktu guru menerangkan pelajaran kita sebaiknya .....</p>
+			</div>
+			
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban3">Mengabaikannya</button>
+				<button id="b" class="btn-jawaban jawaban3">Menghirupnya</button>
+				<button id="c" class="btn-jawaban jawaban3">Mendengarkannya</button>
+				<button id="d" class="btn-jawaban jawaban3">Mengobrol dengan teman</button>
+			</div>
+		</div>
+		
+		<div id="4" style="display:none;">
+			<div class="pertanyaan">
+				<p>Waktu beraktivitas disekolah kita harus menjaga  .....</p>
+			</div>
+			<div class="jawaban">
+				<button id="a" class="btn-jawaban jawaban4">Uang saku</button>
+				<button id="b" class="btn-jawaban jawaban4">Sopan santun</button>
+				<button id="c" class="btn-jawaban jawaban4">Hewan peliharaaan</button>
+				<button id="d" class="btn-jawaban jawaban4">Ruangan kelas</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>

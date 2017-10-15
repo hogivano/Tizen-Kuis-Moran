@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Game Kuis Moral Anak" />
+    <title>KUIS MORAL ANAK</title>   
+<!--     <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="enable" encryption="disable" install-location="auto" hwkey-event="enable"/> -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+<body onload="test()" id="main">
+	<audio src="./lagu/background.mp3" autoplay="false" loop="loop" id="music" style="position:absolute;">
+	</audio>
+	<div id="pageawal" align="center" class="page">
+		<!-- <div class="topnav">
+			<p style="float: right; margin-right: 40px;">Skor :<span> Test</span></p>
+		</div> -->
+		<div class="gambaratas">
+			<img src="./images/kuis-moral.png" width="330px" height="260px" style="position:relative;">
+		</div>
+		<div class="gambarbawah" align="center">
+			<ul class="list" align="center">
+				<li><a href="play.html"><button id ="kriteria" class="btn-awal">Mulai</button></a></li>
+				<!-- <li><a href="./pengaturan.html"><button class="btn-awal">Pengaturan</button></a></li> -->
+				<li id ="tentang"><button id = "tentang" class="btn-awal">Tentang</button></li>
+				<li><a href=""><button id = "keluar" class="btn-awal">Keluar</button></a></li>
+			</ul>
+		</div>
+	</div> 
+	
+	<div id="pagetentang" class="page" display="none" >
+		<h2 style="font-size:30px;padding:30px 0px; color:#e72146;" align="center"><b>KUIS MORAL ANAK</b></h2>
+		<div style="font-size:18px; padding:20px 10px; color:#e72146">
+			<ul style="list-style-type:none;">
+				<li style="margin-bottom:10px;">Version : 1.0.0</li>
+				<li style="margin-bottom:10px;">By : Hendriyan Ogivano</li>
+				<li style="margin-bottom:10px;">Audio :</li>
+				<li>Vidéosword </li> 
+				<li style="margin-bottom:10px;">(https://youtu.be/EMYOiK_iQeY)</li>
+				<li>CorrectAndWrong</li>
+				<li style="margin-bottom:10px;">(https://youtu.be/worclOeTALw)</li>
+				<li>Audio Library – No Copyright Music</li>
+				<li style="margin-bottom:10px;">(https://youtu.be/UzCFTyluxic)</li>
+			</ul>
+		</div>
+	</div>  
+	
+	<!-- <div id="pagekriteria" align="center" class="page" display="none">
+		<div style="widht:100%; margin-top:0px; margin-bottom:30px;background-color:green;">
+			<marquee behavior="scroll" scrollamount="1" direction="left">
+				<p style="margin-top:8px;font-size:22px; color:aqua;">Pilih kriteria soal!!!</p>
+			</marquee>
+		</div>
+		<div class="choice">
+			<div style="width:45%; margin:0; float:left;">
+				<a id="tidur" href="./soal/soalTidur.html" ><img width="110px" height="110px" src="./images/tempat-tidur.png"></a>
+			</div>
+			<div style="width:45%; margin:0; float:right;">
+				<a id="bermain" href="./soal/soalBermain.html"><img width="110px" height="110px" src="./images/bermain.png"></a>
+			</div>
+		</div>
+		<div class="choice">
+			<div style="widht:45%; margin-left:20px; float:left;">
+				<a id="belajar" href="./soal/soalBelajar.html"><img width="110px" height="110px" src="./images/belajar.png"></a>
+			</div>
+			<div style="widht:45%; margin-right:20px; float:right;">
+				<a id="makan" href="./soal/soalMakan.html"><img width="110px" height="110px" src="./images/makan.png"></a>
+			</div>
+		</div>
+		<div class="choice">
+			<div style="widht:45%; margin-left:20px; float:left;">
+				<a id="sekolah" href="./soal/soalSekolah.html"><img width="110px" height="110px" src="./images/sekolah.png"></a>
+			</div>
+			<div style="widht:45%; margin-right:20px; float:right;">
+				<a id="rumah" href="./soal/soalRumah.html"><img width="110px" height="110px" src="./images/rumah.png"></a>
+			</div>
+		</div>
+	</div> 
+	 -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/main.js"></script> 
+</body>
+</html>
